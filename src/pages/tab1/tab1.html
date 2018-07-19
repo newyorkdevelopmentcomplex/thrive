@@ -1,0 +1,82 @@
+<ion-header class="transheader">
+  <ion-navbar>
+    <ion-buttons start class="menupages">
+      <button ion-button menuToggle>
+        <div class="mainmenu">
+          <div class="menuline one"></div>
+          <div class="menuline two"></div>
+          <div class="menuline three"></div>
+        </div>
+    </button>
+    </ion-buttons>
+    <ion-title><img src="./assets/imgs/tlogo.png" class="headlogo"></ion-title>
+    <ion-buttons end>
+      <button ion-button menuToggle class="headicon">
+        <ion-icon name="ios-settings"></ion-icon>
+    </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding class="gradientbg">
+
+  <div class="itemunit">
+    <div class="boldtitle">TASKS</div>
+
+    <div class="contentbox">
+      <ion-item>
+        <ion-label><div class="labeltext">Order sign post</div> <div class="bluebox">6820 Hycroft</div></ion-label>
+        <ion-checkbox color="#5d98f2" checked="true"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label><div class="labeltext uline">New Listing 5473 Cranley</div> <div class="taskdate">Aug 12</div></ion-label>
+        <ion-checkbox color="#5d98f2" checked="false"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label><div class="labeltext">Send Brandon CRM review</div></ion-label>
+        <ion-checkbox color="#5d98f2" checked="false"></ion-checkbox>
+      </ion-item>
+    </div>
+  </div>
+
+  <div class="itemunit">
+    <div class="boldtitle">CALL SHEET</div>
+
+    <div class="contentbox normalize">
+      <ion-item>
+        <ion-label><div class="calltitle">Lisa Smith</div><div class="labeltext">Cell: (778) 929-0161</div></ion-label>
+        <button ion-button item-end class="callbutton">
+          <ion-icon name="ios-chatbubbles"></ion-icon>
+        </button>
+      </ion-item>
+      <ion-item>
+        <ion-label><div class="calltitle">Alex Wright</div><div class="labeltext">Cell: (778) 929-0161</div></ion-label>
+        <button ion-button item-end class="callbutton">
+          <ion-icon name="ios-chatbubbles"></ion-icon>
+        </button>
+      </ion-item>
+    </div>
+  </div>
+
+  <div class="itemunit">
+    <div class="boldtitle">CALENDAR</div>
+
+    <div class="contentbox normalize timelog">
+      <ion-item>
+        <div item-start class="timeunit">
+          <div class="timeitem start">10:15 AM</div>
+          <div class="timeitem end">11:15 PM</div>
+        </div>
+        <ion-label><div class="labeltext">Showing at 6820 Hycroft</div></ion-label>
+      </ion-item>
+      <ion-item>
+        <div item-start class="timeunit">
+          <div class="timeitem start">10:15 AM</div>
+          <div class="timeitem end">11:15 PM</div>
+        </div>
+        <ion-label><div class="labeltext">Coffee with John Jones</div></ion-label>
+      </ion-item>
+    </div>
+  </div>
+
+</ion-content>

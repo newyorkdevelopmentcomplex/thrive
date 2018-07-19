@@ -1,0 +1,84 @@
+<ion-header class="transheader darkhead">
+  <ion-navbar>
+    <ion-buttons start class="menupages">
+      <button ion-button menuToggle>
+        <div class="mainmenu">
+          <div class="menuline one"></div>
+          <div class="menuline two"></div>
+          <div class="menuline three"></div>
+        </div>
+    </button>
+    </ion-buttons>
+    <ion-title><img src="./assets/imgs/tlogo.png" class="headlogo"></ion-title>
+    <ion-buttons end>
+      <button ion-button menuToggle class="headicon mgr0">
+        <ion-icon name="md-add"></ion-icon>
+    </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button menuToggle class="headicon mgl0">
+        <ion-icon name="ios-settings"></ion-icon>
+    </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content class="bgfelsic">
+
+	<div class="pagetitle">Leads</div>
+
+	<div class="bitabs">
+		<div class="tabitem active">Buyers</div>
+		<div class="tabitem">Sellers</div>
+	</div>
+
+	<div class="filterbar">
+		<div class="filterleft" radio-group>
+  			<div class="filteritem">
+    			<ion-radio value="Hot" checked></ion-radio>
+  			</div>
+  		
+  			<div class="filteritem">
+				<ion-radio value="Warm"></ion-radio>
+  			</div>
+  		
+  			<div class="filteritem">
+    			<ion-radio value="Cold"></ion-radio>
+  			</div>
+		</div>
+		<div class="filterright">
+			<button class="filteropen">
+        		<ion-icon name="ios-options"></ion-icon>
+    		</button>
+		</div>
+	</div>
+	<div class="resultcontainer">
+		<ion-item detail-push>
+			<div class="leadname">Mike Smith</div>
+  			<div class="leadinfo">Condo | 2 Bed | $700-900k | North Vancouver</div>
+		</ion-item>
+		<ion-item detail-push>
+			<div class="leadname">Joan Gasby</div>
+  			<div class="leadinfo">Condo | 1 Bed | $400-sock | North Vancouver</div>
+		</ion-item>
+		<ion-item detail-push>
+			<div class="leadname">Bob Jones</div>
+  			<div class="leadinfo">House | 4 Bed | $1.5M-2.4M | North Vancouver</div>
+		</ion-item>
+		<ion-item detail-push>
+			<div class="leadname">Amin Lalji</div>
+  			<div class="leadinfo">House | 5 Bed | $1.2M-1.5M | North Vancouver</div>
+		</ion-item>
+		<ion-item detail-push>
+			<div class="leadname">Jesse Jones</div>
+  			<div class="leadinfo">Townhouse | 2 Bed I $1.2M-2.5M | North Vancouver</div>
+		</ion-item>
+	</div>
+
+	<div class="padset">
+  		<button class="gradientbutton" ion-button><ion-icon name="md-add"></ion-icon> ADD LISTING</button>
+	</div>
+
+  
+
+</ion-content>
